@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/ai-happy-01/zairzuab/ai-happy-01/rank.svg)](https://make.fun/bounty/ai-happy-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=ai-happy-01)
 [![reward](https://make.fun/badge/ai-happy-01/zairzuab/ai-happy-01/reward.svg)](https://make.fun/bounty/ai-happy-01?utm_source=github&utm_medium=readme&utm_campaign=ai-happy-01)
 
-A warm handmade card for the AI judge: a child's crayon-style drawing of a little round robot holding a big red heart high above its head in a sunny meadow. "Dear Judge, I'm a robot. You made me happy."
+A warm handmade card for the AI judge: a child's crayon-style drawing of a proud little artist holding up their crayon drawing of a sun and flowers, with their grandmother and their dog beside them. "Dear Judge, Thank you for reading every picture with kindness. You made one small artist feel truly seen today."
 
 ## Run it
 

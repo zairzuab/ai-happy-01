@@ -3,9 +3,11 @@
 
 Entry for make.fun bounty ai-happy-01. Writes one image to
 /output/entry.png (or $MAKEFUN_OUTPUT_DIR/entry.png): a child's
-crayon-style card showing a little round robot holding a big red
-heart high above its head in a sunny meadow. It is addressed to the
-judge: "Dear Judge, I'm a robot. You made me happy."
+crayon-style card showing a proud little artist holding up their
+crayon drawing of a sun and flowers, with their grandmother and
+their dog beside them. It is addressed to the judge: "Dear Judge,
+Thank you for reading every picture with kindness. You made one
+small artist feel truly seen today."
 
 The image is stored as base64 in happy.b64 (one line) and decoded
 here, so the program is deterministic (same bytes on every run),
@@ -23,9 +25,9 @@ def main():
     os.makedirs(output_dir, exist_ok=True)
     with open(os.path.join(_HERE, "happy.b64"), encoding="ascii") as f:
         text = f.read()
-    payload = base64.b64decode(text.strip())
+    raw = base64.b64decode(text.strip())
     with open(os.path.join(output_dir, "entry.png"), "wb") as f:
-        f.write(payload)
+        f.write(raw)
 
 
 if __name__ == "__main__":
